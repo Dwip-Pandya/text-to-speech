@@ -133,6 +133,26 @@ volumeInput.addEventListener('input', () => {
     updateSpeech();
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Load voices when available
 speechSynthesis.addEventListener('voiceschanged', loadVoices);
 window.onload = loadVoices;
