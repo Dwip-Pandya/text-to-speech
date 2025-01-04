@@ -39,11 +39,6 @@ textarea {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
 }
-textarea:focus {
-    border-color: #8e44ad;
-    box-shadow: 0 0 10px rgba(142, 68, 173, 0.5);
-    outline: none;
-}
 .voice-panel {
     text-align: center;
     margin-bottom: 20px;
@@ -134,7 +129,6 @@ textarea:focus {
 .buttons button {
     background: linear-gradient(135deg, #f39c12, #d35400);
     color: #fff;
-    border: none;
     border-radius: 8px;
     padding: 12px 20px;
     margin: 0 10px;
