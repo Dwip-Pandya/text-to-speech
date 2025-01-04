@@ -161,30 +161,6 @@ textarea:focus {
     transform: translateY(-1px);
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
-/* Highlighted Text */
-#highlighted-text {
-    padding: 20px;
-    background-color: #34495e;
-    border-radius: 10px;
-    margin-top: 20px;
-    line-height: 1.8;
-    min-height: 100px;
-    white-space: pre-wrap;
-    color: #ecf0f1;
-    font-size: 16px;
-    transition: background-color 0.5s ease, color 0.5s ease;
-    animation: pulse 2s infinite;
-    width: 100%;
-}
-#highlighted-text span {
-    background-color: #f39c12;
-    color: #2c3e50;
-    padding: 2px 4px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-
 
 
 
