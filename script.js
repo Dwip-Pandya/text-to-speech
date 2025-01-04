@@ -12,10 +12,15 @@ const resumeBtn = document.getElementById('resume-btn');
 const stopBtn = document.getElementById('stop-btn');
 const highlightedText = document.getElementById('highlighted-text');
 
+
+
 let voices = [];
 let utterance = null;
 let isSpeaking = false;
 let wordIndex = 0;
+
+
+
 
 // Load available voices into the select menu
 function loadVoices() {
@@ -28,6 +33,8 @@ function loadVoices() {
         voiceSelect.appendChild(option);
     });
 }
+
+
 
 // Function to start speaking the text
 function speak() {
@@ -50,6 +57,7 @@ function speak() {
     }
 }
 
+
 // Highlight text as it's spoken
 function handleBoundary(event) {
     if (event.name === 'word') {
@@ -65,6 +73,7 @@ function handleBoundary(event) {
     }
 }
 
+
 // Update the speech parameters in real-time
 function updateSpeech() {
     if (utterance && isSpeaking) {
@@ -73,6 +82,7 @@ function updateSpeech() {
     }
 }
 
+
 // Pause the speech
 function pauseSpeech() {
     if (isSpeaking) {
@@ -80,12 +90,14 @@ function pauseSpeech() {
     }
 }
 
+
 // Resume the speech
 function resumeSpeech() {
     if (isSpeaking) {
         speechSynthesis.resume();
     }
 }
+
 
 // Stop the speech
 function stopSpeech() {
@@ -95,6 +107,10 @@ function stopSpeech() {
         highlightedText.innerHTML = textInput.value;
     }
 }
+
+
+
+
 
 // Event listeners for user interactions
 speakBtn.addEventListener('click', speak);
