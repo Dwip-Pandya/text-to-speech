@@ -11,7 +11,6 @@ body {
     height: 100vh;
     overflow: hidden;
 }
-
 .container {
     background: #2c3e50;
     border-radius: 15px;
@@ -25,8 +24,6 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
-/* Heading */
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -35,7 +32,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Textarea */
 textarea {
     width: 100%;
     max-width: 600px;
@@ -51,14 +47,11 @@ textarea {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
 }
-
 textarea:focus {
     border-color: #8e44ad;
     box-shadow: 0 0 10px rgba(142, 68, 173, 0.5);
     outline: none;
 }
-
-/* Voice Panel */
 .voice-panel {
     text-align: center;
     margin-bottom: 20px;
@@ -67,7 +60,6 @@ textarea:focus {
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-
 .voice-panel label {
     display: block;
     font-weight: 600;
@@ -75,7 +67,6 @@ textarea:focus {
     color: #ecf0f1;
     font-size: 18px;
 }
-
 .voice-panel select {
     width: 80%;
     max-width: 500px;
@@ -88,14 +79,11 @@ textarea:focus {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
 }
-
 .voice-panel select:focus {
     border-color: #8e44ad;
     box-shadow: 0 0 10px rgba(142, 68, 173, 0.5);
     outline: none;
 }
-
-/* Controls */
 .slider-container {
     display: flex;
     justify-content: space-between;
@@ -103,13 +91,11 @@ textarea:focus {
     margin-bottom: 20px;
     gap: 20px;
 }
-
 .slider-wrapper {
     flex: 1;
     margin: 0 10px;
     text-align: center;
 }
-
 .slider-wrapper label {
     display: block;
     font-weight: 600;
@@ -117,7 +103,6 @@ textarea:focus {
     color: #ecf0f1;
     font-size: 18px;
 }
-
 .slider-wrapper input[type="range"] {
     width: 100%;
     background: #34495e;
@@ -127,7 +112,6 @@ textarea:focus {
     cursor: pointer;
     transition: background 0.3s;
 }
-
 .slider-wrapper input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     background: #f39c12;
@@ -136,7 +120,6 @@ textarea:focus {
     border-radius: 50%;
     cursor: pointer;
 }
-
 .slider-wrapper input[type="range"]::-moz-range-thumb {
     background: #f39c12;
     width: 24px;
@@ -144,21 +127,18 @@ textarea:focus {
     border-radius: 50%;
     cursor: pointer;
 }
-
 .slider-wrapper span {
     display: block;
     margin-top: 5px;
     font-size: 16px;
     color: #ecf0f1;
 }
-
 /* Buttons */
 .buttons {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-
 .buttons button {
     background: linear-gradient(135deg, #f39c12, #d35400);
     color: #fff;
@@ -172,18 +152,15 @@ textarea:focus {
     cursor: pointer;
     transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
 }
-
 .buttons button:hover {
     background: linear-gradient(135deg, #f1c40f, #e67e22);
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
-
 .buttons button:active {
     transform: translateY(-1px);
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
-
 /* Highlighted Text */
 #highlighted-text {
     padding: 20px;
@@ -199,7 +176,6 @@ textarea:focus {
     animation: pulse 2s infinite;
     width: 100%;
 }
-
 #highlighted-text span {
     background-color: #f39c12;
     color: #2c3e50;
@@ -207,8 +183,6 @@ textarea:focus {
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
-
-
 
 
 
